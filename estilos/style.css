@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../sources/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+html {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Header */
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header-img {
+    font-size: 1rem;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    height: 0.75rem;
+}
+
+.Header-div {
+    display: flex;
+}
+
+.Header-h2 {
+    font-size: 0.75rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+
+.Header-h2--Subrayado {
+    text-decoration: underline;
+}
+
+/* DIV MAIN*/
+main {
+    padding: 3rem;
+}
+
+.Main-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    gap: 2rem;
+
+}
+
+.Main-img {
+    height: 100%;
+    width: 100%;
+}
+
+.Main-p {
+    font-family: Montserrat;
+    font-weight: 550;
+}
+
+/*Div secundario*/
+.Main-div--secundario {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.Main-div--secundario---img {
+    height: 1rem;
+    width: 1rem;
+    padding-top: 1rem;
+}
+
+.Main-h2 {
+    font-size: 1rem;
+    font-weight: 550;
+    font-family: Montserrat;
+}
+
+hr {
+    color: gray;
+}
+
+/* Footer */
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+.Footer-h2 {
+    font-size: 0.75rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+.Footer-div {
+    display: flex;
+    padding-right: 2rem;
+    justify-content: space-between;
+    width: 30%;
+}
